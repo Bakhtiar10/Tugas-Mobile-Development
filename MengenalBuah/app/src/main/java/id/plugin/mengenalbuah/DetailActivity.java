@@ -20,8 +20,8 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        String namabuah = getIntent().getStringExtra("DATANAMA");
-        int gambarbuah = getIntent().getIntExtra("DATAGAMBAR", 0);
+        String namabuah = getIntent().getStringExtra(Konstanta.DATANAMA);
+        int gambarbuah = getIntent().getIntExtra(Konstanta.DATAGAMBAR, 0);
 
         //log
         Log.d(TAG, "Nama: "+ namabuah);

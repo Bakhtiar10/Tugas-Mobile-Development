@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 MediaPlayer.create(MainActivity.this, suaraBuah[position]).start();
 
                 Intent pindah = new Intent(MainActivity.this, DetailActivity.class);
-                pindah.putExtra("DATANAMA", namaBuah[position]);
-                pindah.putExtra("DATAGAMBAR", gambarBuah[position]);
+                pindah.putExtra(Konstanta.DATANAMA, namaBuah[position]);
+                pindah.putExtra(Konstanta.DATAGAMBAR, gambarBuah[position]);
                 startActivity(pindah);
             }
         });
