@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.plugin.layoutingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconku"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="id.plugin.layoutingapp.ScrollActivity"></activity>
+        <activity android:name="id.plugin.layoutingapp.ConstraintActivity" />
+        <activity android:name="id.plugin.layoutingapp.FrameActivity" />
+        <activity android:name="id.plugin.layoutingapp.RelativeActivity" />
+        <activity android:name="id.plugin.layoutingapp.LinearActivity" />
+        <activity android:name="id.plugin.layoutingapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
